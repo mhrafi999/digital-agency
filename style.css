@@ -15,6 +15,14 @@ body{
     padding: 0;
     
     
+button .navbar-toggler {
+        width: 59px;
+        height: 35px;
+    }
+}
+.fa-bars:before, .fa-navicon:before {
+    content: "\f0c9";
+    font-size: xx-large;
 }
 .navbar-brand img{
     height: 40px;
@@ -27,6 +35,8 @@ body{
 .navbar-nav li a{
     color: #fff !important;
     font-weight: 600px;
+    float: left;
+    text-align: left;
     
 }
 
